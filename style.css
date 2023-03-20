@@ -90,14 +90,17 @@ body {
   justify-content: center;
   opacity: 0;
   transition: opacity 1s;
+  display: none;
 }
 
 .title:nth-child(2) {
   font-size: 100px;
   opacity: 1;
+  display: flex;
 }
 .active .title-container .title {
   opacity: 1;
+  display: flex;
 }
 
 .active {
