@@ -2,7 +2,7 @@ const containers = document.querySelectorAll('.photo-container');
 
 containers.forEach((container) => {
   container.addEventListener('click', () => {
-      removeClass();
+    removeClass();
     container.classList.add('active');
   });
 });
